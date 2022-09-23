@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --bs-gutter-x: 0
+}
+.row{
+    height: 100vh;
+}
+
+.menu{
+   background-color: rgb(241, 243, 246);
+   padding: 1rem;
+}
+.line{
+    height: .2rem;
+    background-color: rgb(198, 203, 211);
+}
+.setlogo{
+    background-color:white;
+    padding: .2rem;
+    position: relative;
+}
+
+.setLogoSvg{
+    width: fit-content;
+    height: fit-content;
+    border: .5rem solid rgb(198, 203, 211);
+    border-radius: 50%;
+}
+.buttonset{
+    border: none;
+    background-color: rgb(219, 229, 251);
+}
+.searchbar{
+    display: inline;
+    padding: .5rem;
+    background-color: rgb(241, 243, 246);
+}
+.searchInput{
+    background-color: rgb(241, 243, 246);
+    border: none;
+}
+.username{
+    font-weight: 800;
+}
+.notification{
+    background-color: rgb(241, 243, 246);
+    width: 30px;
+    height: 30px;
+}
+.question{
+    background-color: rgb(241, 243, 246);
+}
+.questionHeader{
+    width: 70%;
+
+}
+.questionBody{
+    width: 70%;
+    background-color: white;
+}
+.twodot{
+    height: 40px;
+}
+.questionChoice{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.choicesRight{
+    width: 90%;
+    background-color: white;
+    justify-content: space-between;
+}
+.check{
+    width: 40px;
+}
+.x{
+    border-left: 1px solid rgb(241, 243, 246);
+    display: flex;
+
+}
+.addButton{
+    width: 70%;
+    text-align: end;
+}
+.questionAddButton{
+    padding: .5rem;
+    background-color: rgb(219, 229, 251);
+}
+.buttonEnd{
+    width: 35%;
+}
+.buttonTest{
+    border: none;
+    color:white ;
+}
+.choicesRight > p{
+    color: rgb(182, 185, 191);
+}
+.questionBody > p{
+    color: rgb(182, 185, 191);
+}
